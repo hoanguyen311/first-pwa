@@ -1,0 +1,64 @@
+[debug] [2017-09-07T03:11:56.048Z] ----------------------------------------------------------------------
+[debug] [2017-09-07T03:11:56.050Z] Command:       /Users/admin.hoa.nguyen/.nvm/versions/node/v6.10.2/bin/node /Users/admin.hoa.nguyen/.nvm/versions/node/v6.10.2/bin/firebase deploy
+[debug] [2017-09-07T03:11:56.051Z] CLI Version:   3.10.0
+[debug] [2017-09-07T03:11:56.051Z] Platform:      darwin
+[debug] [2017-09-07T03:11:56.051Z] Node Version:  v6.10.2
+[debug] [2017-09-07T03:11:56.052Z] Time:          Thu Sep 07 2017 10:11:56 GMT+0700 (+07)
+[debug] [2017-09-07T03:11:56.052Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-07T03:11:56.065Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-07T03:11:56.065Z] > authorizing via signed-in user
+[debug] [2017-09-07T03:11:56.067Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-07T03:11:56.067Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/kzD4MiL2r4j18MR44yxavZhp4-MErtcsYAbyk46wnTU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Sep 07 2017 10:11:56 GMT+0700 (+07)
+[debug] [2017-09-07T03:11:57.055Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-07T03:11:57.067Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-pwa-975ed  
+ Thu Sep 07 2017 10:11:57 GMT+0700 (+07)
+[debug] [2017-09-07T03:11:58.228Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-07T03:11:58.229Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-pwa-975ed/tokens  
+ Thu Sep 07 2017 10:11:58 GMT+0700 (+07)
+[debug] [2017-09-07T03:11:59.306Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'my-pwa-975ed'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
+[debug] [2017-09-07T03:12:03.110Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/my-pwa-975ed/uploads/-KtPJf9BQ-bgVEHavbna?fileCount=28&message=  
+ Thu Sep 07 2017 10:12:03 GMT+0700 (+07)
+[debug] [2017-09-07T03:12:05.004Z] Error: getaddrinfo ENOTFOUND deploy.firebase.com deploy.firebase.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND deploy.firebase.com deploy.firebase.com:443
+[debug] [2017-09-07T03:12:15.795Z] ----------------------------------------------------------------------
+[debug] [2017-09-07T03:12:15.798Z] Command:       /Users/admin.hoa.nguyen/.nvm/versions/node/v6.10.2/bin/node /Users/admin.hoa.nguyen/.nvm/versions/node/v6.10.2/bin/firebase deploy
+[debug] [2017-09-07T03:12:15.798Z] CLI Version:   3.10.0
+[debug] [2017-09-07T03:12:15.798Z] Platform:      darwin
+[debug] [2017-09-07T03:12:15.798Z] Node Version:  v6.10.2
+[debug] [2017-09-07T03:12:15.799Z] Time:          Thu Sep 07 2017 10:12:15 GMT+0700 (+07)
+[debug] [2017-09-07T03:12:15.799Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-07T03:12:15.811Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-07T03:12:15.811Z] > authorizing via signed-in user
+[debug] [2017-09-07T03:12:15.813Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/my-pwa-975ed  
+ Thu Sep 07 2017 10:12:15 GMT+0700 (+07)
+[debug] [2017-09-07T03:12:17.102Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-07T03:12:17.103Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/my-pwa-975ed/tokens  
+ Thu Sep 07 2017 10:12:17 GMT+0700 (+07)
+[debug] [2017-09-07T03:12:18.088Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'my-pwa-975ed'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing / directory for upload...
+[debug] [2017-09-07T03:12:21.569Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/my-pwa-975ed/uploads/-KtPJjh2cOHI1cPpasLr?fileCount=28&message=  
+ Thu Sep 07 2017 10:12:21 GMT+0700 (+07)
+[debug] [2017-09-07T03:12:22.451Z] Error: getaddrinfo ENOTFOUND deploy.firebase.com deploy.firebase.com:443
+    at errnoException (dns.js:28:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND deploy.firebase.com deploy.firebase.com:443
