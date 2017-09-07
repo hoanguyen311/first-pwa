@@ -1,4 +1,4 @@
-var cacheName = 'wheather-app-shell-v1';
+var cacheName = 'wheather-app-shell-v1.1';
 var dataCacheName = 'wheather-app-data-v1';
 var filesToCache = [
     '/',
